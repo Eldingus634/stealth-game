@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://g5eut5g65y7d"]
+
+[ext_resource type="PackedScene" uid="uid://cseh72662vxqv" path="res://level1.gltf" id="1_u52ul"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="blockbench_export" parent="." instance=ExtResource("1_u52ul")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.65561, 0, -5.22832)
+
+[editable path="blockbench_export"]

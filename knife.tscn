@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbay544relquv"]
+
+[ext_resource type="PackedScene" uid="uid://buhc1lhnckg43" path="res://knife.blend" id="1_mawn3"]
+
+[node name="knife" instance=ExtResource("1_mawn3")]
+
+[node name="model" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
