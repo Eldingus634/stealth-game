@@ -97,7 +97,7 @@ func handle_states(delta):
 		slide_timer -= delta
 		if slide_timer <= 0.0:
 			is_sliding = false
-			toggle_crouch(true)  # End slide into crouch
+			toggle_crouch(false)  # End slide into crouch
 
 func toggle_crouch(enable: bool):
 	is_crouching = enable
